@@ -1,4 +1,4 @@
-FROM alpine:3.23.3@sha256:1529d13528ed05668b2038ffab807ac8633ad6adfe6be8901adda62411f70d29
+FROM alpine:3.23.3@sha256:25109184c71bdad752c8312a8623239686a9a2071e8825f20acb8f2198c3f659
 
 RUN apk add --no-cache \
     hledger==1.52-r0 \
